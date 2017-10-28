@@ -71,8 +71,10 @@ float convertKmToMiles(float length)
 */
 float calculateBMI(int weight, float height){
 	if(weight<250 && weight>20 && height>1.0 && height<2.2){
- 		return weight/(2*height);
-	}else  printf("Wrong input");	
+ 		float BMI=weight/(height*height);
+ 		return BMI;
+	}else  printf("Wrong input");
+		return 0;	
 }
 
 /*
