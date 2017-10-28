@@ -47,4 +47,16 @@ int calcRectangleArea(int a, int b){
 }
 
 
+/*Convert km to miles
+* Author: Ondrej Tomco
+* Date: 28-10-2017
+* @param: length
+* @return: inMiles
+*/
+float convertKmToMiles(float length)
+{
+	float inMiles = length*0.62;
+	return inMiles;
+	
+}
 
