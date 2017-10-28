@@ -74,3 +74,38 @@ float calculateBMI(int weight, float height){
 	}else  printf("Wrong input");	
 }
 
+/*
+* Resolve if input number is prime nuber
+* Author: Michal Novotny
+* Date: 28-10-2017
+* @param: a 
+* @param: b
+* @return: result
+*/
+int isPrimeNumber(int number) // 0 - no, 1 - yes
+{
+	int swap = number;
+	int i=0, result = 0, testTo = 0;
+	if (swap == 2)
+	{
+		result = 1;
+	}
+	else if (swap % 2 == 0 || swap < 2)
+	{
+		result = 0;
+	}
+	else
+	{
+		testTo = sqrt(swap);
+		result = 1;
+		for (int i = 3; i <= testTo; i+=2)
+		{
+			if (swap % i == 0)
+			{
+				result = 0;
+			}
+		}
+	}
+	return result;
+}
+
