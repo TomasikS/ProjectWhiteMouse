@@ -11,7 +11,7 @@ int max(int x1, int x2, int x3, int x4);
 float convertKmToMiles(float length);
 float min (float y1, float y2, float y3, float y4);
 float calcSquareArea(float a);
-float calculateBMI(int wight, float height);
+float calculateBMI(int weight, float height);
 int calcRectangleCircumference(int a, int b);
 int getRanfomNumberBetween10and50();
 float calcSum(float x1, float x2, int y1, int y2);
@@ -26,6 +26,8 @@ int isPrimeNumber(int number); // 0 - no, 1 - yes
 int calcDigitSum(int number); // 1256 => return 14
 float caclThirdPower(float number); // 5 => 125
 double absolute(double number); // 6=> 6 , -8 =>8
+
+
 
 
 int main(){
@@ -58,5 +60,17 @@ float convertKmToMiles(float length)
 	float inMiles = length*0.62;
 	return inMiles;
 	
+}
+/*Calculate BMI  
+* Author: Milan TImko
+* Date: 28-10-2017
+* @param: weight
+* @param: height
+* @return: BMI
+*/
+float calculateBMI(int weight, float height){
+	if(weight<250 && weight>20 && height>1.0 && height<2.2){
+ 		return weight/(2*height);
+	}else  printf("Wrong input");	
 }
 
