@@ -112,3 +112,16 @@ int isPrimeNumber(int number) // 0 - no, 1 - yes
 	return result;
 }
 
+/*
+* Calculate the third power of a number
+* Author: Peter Szathmáry
+* Date: 28-10-2017
+* @param: number
+* @return: result
+*/
+float caclThirdPower(float number)
+{
+	float result;
+	result = pow(number, 3);
+	return result;
+}
