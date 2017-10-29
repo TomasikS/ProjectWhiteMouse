@@ -140,3 +140,15 @@ float convertEURtoHUF(float amount)
 	amount=amount*huf;
 	return amount;
 }
+/*
+* convertKmphToMps(float speed)
+* Author: Andrej Byra
+* Date: 29-10-2017
+* @param: speed
+* @return: Mps
+*/
+float convertKmphToMps(float speed)
+{
+	float Mps=(speed*1000)/3600;
+	return Mps;
+}
