@@ -125,3 +125,18 @@ float caclThirdPower(float number)
 	result = pow(number, 3);
 	return result;
 }
+
+
+/*
+* Convert EUR to HUF
+* Author: Martin Herèka
+* Date: 29-10-2017
+* @param: amount
+* @return: amount
+*/
+float convertEURtoHUF(float amount)
+{
+	float huf=311.23;
+	amount=amount*huf;
+	return amount;
+}
