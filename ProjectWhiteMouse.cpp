@@ -12,6 +12,7 @@ int max(int x1, int x2, int x3, int x4);
 float convertKmToMiles(float length);
 float min (float y1, float y2, float y3, float y4);
 float calcSquareArea(float a);
+int existsTriangle(int a, int b, int c);
 float calculateBMI(int weight, float height);
 int calcRectangleCircumference(int a, int b);
 int getRanfomNumberBetween10and50();
@@ -152,3 +153,43 @@ float convertKmphToMps(float speed)
 	float Mps=(speed*1000)/3600;
 	return Mps;
 }
+/*
+* Triangle exists
+* Author: Pavol Kiss
+* Date: 29-10-2017
+* @param: a
+* @param: b
+* @param: c
+* @return: result
+*/
+int existsTriangle(int a, int b, int c)
+{
+	printf("Enter three sides of triangle: \n");
+    scanf("%d%d%d", &a, &b, &c);
+	if((a + b) > c)
+    {
+        if((b + c) > a)
+        {
+            if((a + c) > b) 
+            {
+            	printf("The sides form a triangle.");
+            }
+            else
+            {
+                printf("The sides do not form a triangle.");
+            }
+        }
+        else
+        {
+            printf("The sides do not form a triangle");
+        }
+    }
+    else
+    {
+        printf("The sides do not form a triangle");
+    }
+	
+}
+	
+	
+		
