@@ -219,6 +219,21 @@ int isTriangleRectangular(int a, int b, int c){  // 0 - no, 1 - yes
 	return 0;	
 	
 	}
-	
-	
+/*
+* Calculate Average of numbers
+* Author: Erik Ruszinka
+* Date: 28-10-2017
+* @param: a 
+* @param: b
+* @param: c
+* @param: d
+* @return: average	
+*/	
+float average(float a, float b, float c, float d, float e)
+{
+	float average=(a+b+c+d)/4;
+	printf("Numbers average: %1.2f", average);
+}
+
+
 		
