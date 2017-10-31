@@ -1,4 +1,4 @@
-#include <stdio.h>
+https://github.com/akademiasovy/ProjectWhiteMouse#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 #include <math.h>
@@ -164,8 +164,6 @@ float convertKmphToMps(float speed)
 */
 int existsTriangle(int a, int b, int c)
 {
-	printf("Enter three sides of triangle: \n");
-    scanf("%d%d%d", &a, &b, &c);
 	if((a + b) > c)
     {
         if((b + c) > a)
