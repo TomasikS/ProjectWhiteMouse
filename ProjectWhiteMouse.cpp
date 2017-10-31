@@ -234,4 +234,27 @@ float average(float a, float b, float c, float d, float e)
 }
 
 
+/*
+* Calculate Diagonal of Rectangle
+* Author: Jakub Seliga
+* Date: 31-10-2017
+* @param: width 
+* @param: height
+* @return: result
+*/
+double calcRectangleDiagonal(int width, int height);
+{
+	double result;
+	
+	if(width>0 && height>0)
+	{
+		result=(double)sqrt((width*width)+(height*height));	
+	}
+	else
+	{
+		return 0;
+	}
+	return result;
+}
+
 		
