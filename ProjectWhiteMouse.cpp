@@ -200,20 +200,21 @@ int existsTriangle(int a, int b, int c)
 
 int isTriangleRectangular(int a, int b, int c){  // 0 - no, 1 - yes
 	
-	if(a+b>c || c+b>a || c+a>b)
+	if(a+b>c && c+b>a && c+a>b)
 	{
 		if( a*a==(b*b+c*c) || b*b==(c*c+a*a) || c*c==(a*a+b*b))
 		{
-		printf("Yes");
+		printf("\nYes");
 		return 1;
 		
 		}
 		else{
-		printf("No");
+		printf("\nNo");
 		return 0;
 		}
 	
 	}
+	printf("\nNo"); 
 	return 0;	
 	
 	}
