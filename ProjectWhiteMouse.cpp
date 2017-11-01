@@ -1,4 +1,5 @@
-https://github.com/akademiasovy/ProjectWhiteMouse#include <stdio.h>
+/* https://github.com/akademiasovy/ProjectWhiteMouse */ 
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 #include <math.h>
@@ -275,7 +276,7 @@ return result;
 }
 
 /* 
-* Finding out whether number is a palindrom
+* Finding out whether 2,3 or 4-digit number is a palindrom
 * Author: Boris Galický
 * Date: 31-10-2017
 * @param: number
@@ -284,7 +285,7 @@ return result;
 int isNumberPalindrom(int number)
 {
 int a,b,c,d;
-if(number<100)
+if((number>=10) and (number<100))
 	{
 	a=(number%10);
 	b=(number/10);
