@@ -219,6 +219,27 @@ int isTriangleRectangular(int a, int b, int c){  // 0 - no, 1 - yes
 	return 0;	
 	
 	}
+	
+/*
+* calc Triangle Circumference
+* Author: Lubomir Volcko
+* Date: 01-11-2017
+* @param:a
+* @param:b
+* @param:c
+* @return: result
+*/
+
+int calcTriangleCircumference(int a, int b, int c);
+
+calcTriangleCircumference=a+b+c;
+printf("Triangle Circumference is: %d", calcTriangleCircumference);
+
+return 0;
+
+
+
+
 /*
 * Calculate Average of numbers
 * Author: Erik Ruszinka
