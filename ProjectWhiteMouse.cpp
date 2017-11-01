@@ -22,7 +22,7 @@ int isTriangleRectangular(int a, int b, int c); // 0 - no, 1 - yes
 int existsTriangle(int a, int b, int c); //0 - no, 1 - yes
 float convertKmphToMps(float speed); // convert km/h -> m/s
 float calcSquareCircumference(float width);
-float calcVat(float amount); // vat = 20 %
+float calcVat(float amount);
 int isNumberPalindrom(int number); // input 4-digits number, return 0-no, 1-yes
 int isPrimeNumber(int number); // 0 - no, 1 - yes
 int calcDigitSum(int number); // 1256 => return 14
@@ -258,4 +258,19 @@ double calcRectangleDiagonal(int width, int height);
 	return result;
 }
 
+/*
+* CalcVat(float amount)
+* Author: Jozef Radic
+* Date: 1-11-2017
+* @param: vat
+* @param: amount
+* @return: result
+*/
+
+float calcVat(float amount);
+{
+float amount;
+vat = amount/20%;
+return result;
+}
 		
