@@ -447,7 +447,7 @@ return minNumber;
 * @param: y4
 * return: calcSum FLOAT, calcSum INT
 */
-float calcSum(float x1, float x2, int y1, int y2)
+float calcSum(float number1, float number2, int number3, int number4)
 {
 	float calcSum0;
 	int calcSum1;
