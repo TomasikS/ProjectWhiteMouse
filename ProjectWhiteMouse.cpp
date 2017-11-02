@@ -254,7 +254,7 @@ return 0;
 float average(float a, float b, float c, float d, float e)
 {
 	float average=(a+b+c+d+e)/5;
-	return 0;
+	return average;
 }
 
 
