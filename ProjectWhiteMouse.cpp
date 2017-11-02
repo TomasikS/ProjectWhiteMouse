@@ -292,8 +292,8 @@ double calcRectangleDiagonal(int width, int height);
 
 float calcVat(float amount);
 {
-float amount;
-vat = amount/20%;
+float amount,vat;
+result = ((vat/100)*amount);
 return result;
 }
 
