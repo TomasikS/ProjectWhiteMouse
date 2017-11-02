@@ -116,7 +116,7 @@ int isPrimeNumber(int number) // 0 - no, 1 - yes
 
 /*
 * Calculate the third power of a number
-* Author: Peter SzathmÃ¡ry
+* Author: Peter Szathmáry
 * Date: 28-10-2017
 * @param: number
 * @return: result
@@ -131,7 +131,7 @@ float caclThirdPower(float number)
 
 /*
 * Convert EUR to HUF
-* Author: Martin HerÃ¨ka
+* Author: Martin Herèka
 * Date: 29-10-2017
 * @param: amount
 * @return: amount
@@ -252,7 +252,7 @@ return 0;
 */	
 float average(float a, float b, float c, float d, float e)
 {
-	float average=(a+b+c+d+e)/5;
+	float average=(a+b+c+d)/4;
 	printf("Numbers average: %1.2f", average);
 }
 
@@ -298,7 +298,7 @@ return result;
 
 /* 
 * Finding out whether 2,3 or 4-digit number is a palindrom
-* Author: Boris GalickÃ½
+* Author: Boris Galický
 * Date: 31-10-2017
 * @param: number
 * @return: result
@@ -362,3 +362,97 @@ else
 	}
 }
 		
+
+/* CalcSum
+* Author: Slavomir Cesla
+* Date: 31-10-2017
+* @param: x1
+* @param: x2
+* @param: y3
+* @param: y4
+*/
+float calcSum(float x1, float x2, int y1, int y2)
+{
+	float calcSum0;
+	int calcSum1;
+	
+	calcSum0= (x1 + x2);
+	printf("%1.3f\n", calcSum0 );
+	calcSum1= (y1 + y2);
+	printf("%d", calcSum1);
+	
+}  
+
+/* Min Number float
+* Author: Slavomir Cesla
+* Date: 31-10-2017
+* @param: y1
+* @param: y2
+* @param: y3
+* @param: y4
+* @return:0
+*/
+
+float minNumber (float y1, float y2, float y3, float y4)
+{
+		if((y1<y2)&&(y1<y3)&&(y1<y4))
+		{
+			printf("y1 is Min");
+		}
+		else
+		{
+			if((y2<y1)&&(y2<y3)&&(y2<y4))
+			{
+			printf("y2 is Min");
+			}
+			else
+			{
+				if((y3<y1)&&(y3<y2)&&(y3<y4))
+				{
+				printf("y3 is Min");
+				}
+				else
+				{
+					if((y4<y1)&&(y4<y2)&&(y4<y3))
+					{
+					printf("y4 is Min");
+					}
+					else
+					{
+					printf("Error");
+					}
+				}
+				
+			}
+		}
+return 0;
+}
+
+/* Calc digit Sum
+* Author Slavomir Cesla
+* Date: 31-10-2017
+* @param: number1
+* @param: number2
+* @param: number3
+* @param: number4
+* @return: result
+*/
+
+int calcDigitSum(int number)
+{
+	
+	int number1;
+	int number2;
+	int number3;
+	int number4;
+	int calcDigitSum;
+	
+	number1=(number/1000);
+	number2=(number/100)%10;
+	number3=(number/10)%10;
+	number4=(number%10);
+
+	calcDigitSum=number1+number2+number3+number4;
+	printf("%d",calcDigitSum);
+}
+	
