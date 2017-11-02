@@ -362,4 +362,100 @@ else
 	printf("WRONG INPUT!");
 	}
 }
-		
+
+/* Calc digit Sum
+* Author Slavomir Cesla
+* Date: 31-10-2017
+* @param: number1
+* @param: number2
+* @param: number3
+* @param: number4
+* @return: DIGIT SUM
+*/
+
+int calcDigitSum(int number)
+{
+	
+	int number1;
+	int number2;
+	int number3;
+	int number4;
+	int calcDigitSum;
+	
+	number1=(number/1000);
+	number2=(number/100)%10;
+	number3=(number/10)%10;
+	number4=(number%10);
+
+	calcDigitSum=number1+number2+number3+number4;
+
+return: calcDigitSum;
+}
+
+
+/* Min Number float
+* Author: Slavomir Cesla
+* Date: 31-10-2017
+* @param: Number1
+* @param: Number2
+* @param: Number3
+* @param: Number4
+* @return: MinNumber
+*/
+
+float minNumber (float Number1, float Number2, float Number3, float Number4)
+{
+		if((y1<y2)&&(y1<y3)&&(y1<y4))
+		{
+			printf("Number1 is Min");
+		}
+		else
+		{
+			if((y2<y1)&&(y2<y3)&&(y2<y4))
+			{
+			printf("Number2 is Min");
+			}
+			else
+			{
+				if((y3<y1)&&(y3<y2)&&(y3<y4))
+				{
+				printf("Number3 is Min");
+				}
+				else
+				{
+					if((y4<y1)&&(y4<y2)&&(y4<y3))
+					{
+					printf("Number4 is Min");
+					}
+					else
+					{
+					printf("Error");
+					}
+				}
+				
+			}
+		}
+return minNumber;
+}
+	
+/* CalcSum
+* Author: Slavomir Cesla
+* Date: 31-10-2017
+* @param: x1
+* @param: x2
+* @param: y3
+* @param: y4
+* return: calcSum FLOAT, calcSum INT
+*/
+float calcSum(float x1, float x2, int y1, int y2)
+{
+	float calcSum0;
+	int calcSum1;
+	
+	calcSum0= (number1 + number2);
+
+	calcSum1= (number3 + number4);
+
+	return calcSum0, calcSum1;
+	
+}  
