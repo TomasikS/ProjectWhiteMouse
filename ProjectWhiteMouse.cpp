@@ -116,7 +116,7 @@ int isPrimeNumber(int number) // 0 - no, 1 - yes
 
 /*
 * Calculate the third power of a number
-* Author: Peter Szathmáry
+* Author: Peter SzathmÃ¡ry
 * Date: 28-10-2017
 * @param: number
 * @return: result
@@ -131,7 +131,7 @@ float caclThirdPower(float number)
 
 /*
 * Convert EUR to HUF
-* Author: Martin Herèka
+* Author: Martin HerÃ¨ka
 * Date: 29-10-2017
 * @param: amount
 * @return: amount
@@ -252,7 +252,7 @@ return 0;
 */	
 float average(float a, float b, float c, float d, float e)
 {
-	float average=(a+b+c+d)/4;
+	float average=(a+b+c+d+e)/5;
 	printf("Numbers average: %1.2f", average);
 }
 
@@ -298,7 +298,7 @@ return result;
 
 /* 
 * Finding out whether 2,3 or 4-digit number is a palindrom
-* Author: Boris Galickı
+* Author: Boris GalickÃ½
 * Date: 31-10-2017
 * @param: number
 * @return: result
