@@ -83,9 +83,8 @@ float calculateBMI(int weight, float height){
 * Resolve if input number is prime nuber
 * Author: Michal Novotny
 * Date: 28-10-2017
-* @param: a 
-* @param: b
-* @return: result
+* @param: number
+* @return: result  0 - no, 1 - yes
 */
 int isPrimeNumber(int number) // 0 - no, 1 - yes
 {
