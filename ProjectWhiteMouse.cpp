@@ -254,7 +254,7 @@ return 0;
 float average(float a, float b, float c, float d, float e)
 {
 	float average=(a+b+c+d+e)/5;
-	printf("Numbers average: %1.2f", average);
+	return 1;
 }
 
 
