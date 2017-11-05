@@ -230,11 +230,11 @@ int isTriangleRectangular(int a, int b, int c){  // 0 - no, 1 - yes
 */
 
 int calcTriangleCircumference(int a, int b, int c);
+{
+	result=a+b+c;
+	return result;
+}
 
-calcTriangleCircumference=a+b+c;
-printf("Triangle Circumference is: %d", calcTriangleCircumference);
-
-return 0;
 
 
 
