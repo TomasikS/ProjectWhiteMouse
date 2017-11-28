@@ -265,12 +265,12 @@ float average(float a, float b, float c, float d, float e)
 * @param: height
 * @return: result
 */
-double calcRectangleDiagonal(int width, int height);
+double calcRectangleDiagonal(int width, int height)
 {
 	double result;
 	
 	if(width>0 && height>0)
-	{
+	{ 
 		result=(double)sqrt((width*width)+(height*height));	
 	}
 	else
