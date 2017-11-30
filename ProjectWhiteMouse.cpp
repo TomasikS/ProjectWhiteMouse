@@ -289,10 +289,9 @@ double calcRectangleDiagonal(int width, int height)
 * @return: result
 */
 
-float calcVat(float amount);
+float calcVat(float amount)
 {
-float amount,vat;
-result = ((vat/100)*amount);
+result=(((float)20/100)*amount);
 return result;
 }
 
@@ -458,3 +457,14 @@ float calcSum(float number1, float number2, int number3, int number4)
 	return calcSum0, calcSum1;
 	
 }  
+
+/* double absolute(double number); 
+* Author: Daniela Vecserova
+* Date: 29-11-2017
+* return: result
+*/
+  double absolute(double number)
+  
+{  
+   return fabs(number);
+}
