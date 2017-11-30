@@ -468,3 +468,19 @@ float calcSum(float number1, float number2, int number3, int number4)
 {  
    return fabs(number);
 }
+
+/*
+* Calculate rectangle circumference
+* Author: Edgar Koterle
+* Date: 30-11-2017
+* @param: a
+* @param: b
+* @return: circumference
+*/
+
+int calcRectangleCircumference (int a, int b)
+{
+	int circumference=(2*a)+(2*b);
+	return circumference;
+}
+
